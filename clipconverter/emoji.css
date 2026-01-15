@@ -1,5 +1,12 @@
 @charset "utf-8";
-.emoji{/* システム名など、一部文字に変換された絵文字の色 */
+.emoji{
+    &::before{content:"[:"attr(title)":]"; font-size: 12px; font-weight: bold; color: #666;}
+    &.e-doutakuok::before{content:"同卓OK"; color: #fa8072;}
+    &.e-doutakung::before{content:"同卓NG"; color: #00c;}
+    &.e-netabare::before, &.e-netabare2::before, &.e-netabare_2::before, &.e-netabare_0::before, &.e-netabare_1::before{content:"ネタバレ"; color:#c00}
+    &.e-barenyasi::before{content:"バレなし"; color: #87ceeb;}
+    &.e-hunikibarekamo::before{content: "ふんいきバレかも？"; color: #87ceeb;}
+    
     /* TPRGシステムネーム */
     &.e-2401::before{content:"2401"; color:var(--system)}
     &.e-5e::before{content:"5ERPG"; color:var(--system)}
