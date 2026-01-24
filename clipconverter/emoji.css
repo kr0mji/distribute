@@ -191,37 +191,82 @@
     &.e-futarisousa::before{content:"フタリソウサ"; color:#eb9b6f}
 
     /* かな系 */
+    &.e-kana_3ten::before{content:"…"; color:var(--kana);}
     &.e-kana_a::before{content:"あ"; color:var(--kana);}
+    &.e-kana_a2::before{content:"あ゙"; color:var(--kana);}
+    &.e-kana_ba::before{content:"ば"; color:var(--kana);}
+    &.e-kana_be::before{content:"べ"; color:var(--kana);}
+    &.e-kana_bi::before{content:"び"; color:var(--kana);}
+    &.e-kana_bo::before{content:"ぼ"; color:var(--kana);}
+    &.e-kana_bou::before{content:"〜"; color:var(--kana);}
+    &.e-kana_bu::before{content:"ぶ"; color:var(--kana);}
     &.e-kana_chi::before{content:"ち"; color:var(--kana);}
+    &.e-kana_da::before{content:"だ"; color:var(--kana);}
+    &.e-kana_de::before{content:"で"; color:var(--kana);}
+    &.e-kana_di::before{content:"ぢ"; color:var(--kana);}
+    &.e-kana_do::before{content:"ど"; color:var(--kana);}
+    &.e-kana_du::before{content:"づ"; color:var(--kana);}
     &.e-kana_e::before{content:"え"; color:var(--kana);}
+    &.e-kana_e2::before{content:"え゙"; color:var(--kana);}
+    &.e-kana_exc::before{content:"！！"; color:var(--kana);}
     &.e-kana_fu::before{content:"ふ"; color:var(--kana);}
+    &.e-kana_ga::before{content:"が"; color:var(--kana);}
+    &.e-kana_ge::before{content:"げ"; color:var(--kana);}
+    &.e-kana_gi::before{content:"ぎ"; color:var(--kana);}
+    &.e-kana_go::before{content:"ご"; color:var(--kana);}
+    &.e-kana_gu::before{content:"ぐ"; color:var(--kana);}
     &.e-kana_ha::before{content:"は"; color:var(--kana);}
     &.e-kana_he::before{content:"へ"; color:var(--kana);}
     &.e-kana_hi::before{content:"ひ"; color:var(--kana);}
     &.e-kana_ho::before{content:"ほ"; color:var(--kana);}
     &.e-kana_i::before{content:"い"; color:var(--kana);}
+    &.e-kana_i2::before{content:"い゙"; color:var(--kana);}
+    &.e-kana_ji::before{content:"じ"; color:var(--kana);}
     &.e-kana_ka::before{content:"か"; color:var(--kana);}
     &.e-kana_ke::before{content:"け"; color:var(--kana);}
     &.e-kana_ki::before{content:"き"; color:var(--kana);}
     &.e-kana_ko::before{content:"こ"; color:var(--kana);}
     &.e-kana_ku::before{content:"く"; color:var(--kana);}
     &.e-kana_ma::before{content:"ま"; color:var(--kana);}
+    &.e-kana_ma2::before{content:"ま゙"; color:var(--kana);}
     &.e-kana_me::before{content:"め"; color:var(--kana);}
+    &.e-kana_me2::before{content:"め゙"; color:var(--kana);}
     &.e-kana_mi::before{content:"み"; color:var(--kana);}
+    &.e-kana_mi2::before{content:"み゙"; color:var(--kana);}
     &.e-kana_mo::before{content:"も"; color:var(--kana);}
+    &.e-kana_mo2::before{content:"も゙"; color:var(--kana);}
     &.e-kana_mu::before{content:"む"; color:var(--kana);}
+    &.e-kana_mu2::before{content:"む゙"; color:var(--kana);}
     &.e-kana_n::before{content:"ん"; color:var(--kana);}
     &.e-kana_na::before{content:"な"; color:var(--kana);}
+    &.e-kana_na2::before{content:"な゙"; color:var(--kana);}
     &.e-kana_ne::before{content:"ね"; color:var(--kana);}
+    &.e-kana_ne2::before{content:"ね゙"; color:var(--kana);}
     &.e-kana_ni::before{content:"に"; color:var(--kana);}
+    &.e-kana_ni2::before{content:"に゙"; color:var(--kana);}
+    &.e-kana_nn2::before{content:"ん゙"; color:var(--kana);}
     &.e-kana_no::before{content:"の"; color:var(--kana);}
+    &.e-kana_no2::before{content:"の゙"; color:var(--kana);}
     &.e-kana_nu::before{content:"ぬ"; color:var(--kana);}
+    &.e-kana_nu2::before{content:"ぬ゙"; color:var(--kana);}
     &.e-kana_o::before{content:"お"; color:var(--kana);}
+    &.e-kana_o2::before{content:"お゙"; color:var(--kana);}
+    &.e-kana_pa::before{content:"ぱ"; color:var(--kana);}
+    &.e-kana_pe::before{content:"ぺ"; color:var(--kana);}
+    &.e-kana_pi::before{content:"ぴ"; color:var(--kana);}
+    &.e-kana_po::before{content:"ぽ"; color:var(--kana);}
+    &.e-kana_pu::before{content:"ぷ"; color:var(--kana);}
+    &.e-kana_que::before{content:"？？"; color:var(--kana);}
     &.e-kana_ra::before{content:"ら"; color:var(--kana);}
+    &.e-kana_ra2::before{content:"ら゙"; color:var(--kana);}
     &.e-kana_re::before{content:"れ"; color:var(--kana);}
+    &.e-kana_re2::before{content:"れ゙"; color:var(--kana);}
     &.e-kana_ri::before{content:"り"; color:var(--kana);}
+    &.e-kana_ri2::before{content:"り゙"; color:var(--kana);}
     &.e-kana_ro::before{content:"ろ"; color:var(--kana);}
+    &.e-kana_ro2::before{content:"ろ゙"; color:var(--kana);}
     &.e-kana_ru::before{content:"る"; color:var(--kana);}
+    &.e-kana_ru2::before{content:"る゙"; color:var(--kana);}
     &.e-kana_sa::before{content:"さ"; color:var(--kana);}
     &.e-kana_se::before{content:"せ"; color:var(--kana);}
     &.e-kana_shi::before{content:"し"; color:var(--kana);}
@@ -232,13 +277,27 @@
     &.e-kana_to::before{content:"と"; color:var(--kana);}
     &.e-kana_tsu::before{content:"つ"; color:var(--kana);}
     &.e-kana_u::before{content:"う"; color:var(--kana);}
+    &.e-kana_u2::before{content:"ぅ゙"; color:var(--kana);}
     &.e-kana_wa::before{content:"わ"; color:var(--kana);}
+    &.e-kana_wa2::before{content:"わ゙"; color:var(--kana);}
     &.e-kana_wo::before{content:"を"; color:var(--kana);}
+    &.e-kana_wo2::before{content:"を゙"; color:var(--kana);}
     &.e-kana_wye::before{content:"ゑ"; color:var(--kana);}
     &.e-kana_wyi::before{content:"ゐ"; color:var(--kana);}
+    &.e-kana_xa::before{content:"ぁ"; color:var(--kana);}
+    &.e-kana_xe::before{content:"ぇ"; color:var(--kana);}
+    &.e-kana_xo::before{content:"ぉ"; color:var(--kana);}
+    &.e-kana_xtu::before{content:"ぅ"; color:var(--kana);}
     &.e-kana_ya::before{content:"や"; color:var(--kana);}
+    &.e-kana_ya2::before{content:"や゙"; color:var(--kana);}
     &.e-kana_yo::before{content:"よ"; color:var(--kana);}
+    &.e-kana_yo2::before{content:"よ゙"; color:var(--kana);}
     &.e-kana_yu::before{content:"ゆ"; color:var(--kana);}
+    &.e-kana_yu2::before{content:"ゆ゙"; color:var(--kana);}
+    &.e-kana_za::before{content:"ざ"; color:var(--kana);}
+    &.e-kana_ze::before{content:"ぜ"; color:var(--kana);}
+    &.e-kana_zo::before{content:"ぞ"; color:var(--kana);}
+    &.e-kana_zu::before{content:"ず"; color:var(--kana);}
     &.e-ru::before{content:"る"; color:var(--kana);}
     &.e-yu::before{content:"ゆ"; color:var(--kana);}
 }
