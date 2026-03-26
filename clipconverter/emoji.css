@@ -176,7 +176,15 @@
     &.e-villains_quest::before{content:"ヴィランズクエスト"; color:var(--system)}
     &.e-wareragaounomimakarite::before{content:"我らが王の身罷りて"; color:var(--system)}
     &.e-witch_quest::before{content:"ウィッチクエスト"; color:var(--system)}
-
+    &.e-android_no_nemuranai_yoru::before{content:"アンドロイドの眠らない夜"; color:var(--system)}
+    .e-boardgame::before{content:"ボドゲ"; color:var(--system)}
+    .e-kyouhandrive::before{content:"キョーハンドライブ"; color:var(--system)}
+    .e-metaljourney::before{content:"メタルジャーニー"; color:var(--system)}
+    .e-nanimonai_mura::before{content:"なにもない村"; color:var(--system)}
+    .e-negikure_negimaki::before{content:"ネジクレネジマキ"; color:var(--system)}
+    .e-PD::before{content:"プレシャスデイズ"; color:var(--system)}
+    .e-saihate_no_yasuragi::before{content:"最果ての安らぎ"; color:var(--system)}
+    .e-sayounara_matakondo::before{content:"さよこん"; color:var(--system)}
 
     &.e-coc_6::before{content:"CoC6"; color: brown;}
     &.e-coc_7::before{content:"CoC7"; color: brown;}
